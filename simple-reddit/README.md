@@ -2,6 +2,10 @@
 
 <img width="400" src="https://user-images.githubusercontent.com/80494742/162765466-b751a063-688d-43fe-a073-984b1a9926e9.gif" />
 
+## 배포
+
+https://ng-first-app-w.netlify.app/
+
 ## 기능
 
 1. 폼 입력후 전송시 하단에 렌더링
