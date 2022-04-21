@@ -11,5 +11,9 @@ export class SectionComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  startTime(){
+    console.log('섹션 컴포넌트가 잘 받음');
+  }
 
 }
