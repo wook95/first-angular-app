@@ -1,0 +1,13 @@
+.container{
+    display:flex;
+}
+
+.time{    
+    width:20px;
+    text-align:center;
+}
+
+.separator{
+    width:10px;
+    text-align:center;
+}
