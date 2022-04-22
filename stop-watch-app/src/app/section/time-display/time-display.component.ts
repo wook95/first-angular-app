@@ -40,7 +40,6 @@ export class TimeDisplayComponent implements OnInit {
   }
 
   ngOnChanges(changes:SimpleChanges){
-    console.log(changes)
     for(let propName in changes){
 
       switch (changes[propName].currentValue) {

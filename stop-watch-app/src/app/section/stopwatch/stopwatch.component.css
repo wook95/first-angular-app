@@ -17,8 +17,9 @@
     text-decoration: none;
   }
 
-  a:visited{
-    color:#33b893;
+  button{
+    padding:5px 10px;
+    margin-top:10px;
   }
-  
+
   

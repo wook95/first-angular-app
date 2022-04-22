@@ -1,5 +1,7 @@
 <div class="title">
 
     <p>clock 입니다😀</p>
-    <a [routerLink]="'/stopwatch'" >스탑워치로 이동</a>
+    <p class="time" >{{time}}</p>
+
+    <button (click)="goStopwatch()" >버튼으로 시계 이동</button>
 </div>

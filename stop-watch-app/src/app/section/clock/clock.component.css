@@ -9,14 +9,18 @@
     background-color:#fff8e1;
     line-height: 1.5;
   }
-  
+
+  .time{
+    font-size:25px;
+  }
+
   a{
     padding-top:5px;
     color:#0a70c2;
     text-decoration: none;
   }
 
-  a:visited{
-    color:#33b893;
+  button{
+    padding:5px 10px;
+    margin-top:5px;
   }
-  
