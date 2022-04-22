@@ -6,16 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./section.component.css']
 })
 export class SectionComponent implements OnInit {
-  present:string
-
+ 
   constructor() {
    }
 
   ngOnInit(): void {
   }
   
-  startTime(time:string){
-    this.present=time;
-  }
+
 
 }
