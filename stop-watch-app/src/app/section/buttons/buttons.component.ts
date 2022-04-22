@@ -6,8 +6,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./buttons.component.css']
 })
 export class ButtonsComponent implements OnInit {
-
-  @Output() clickEvent = new EventEmitter()
+  @Output() clickEvent = new EventEmitter<string>()
 
   constructor() {
   }
@@ -15,8 +14,8 @@ export class ButtonsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  start(){
-    this.clickEvent.emit();
+  onPressButton(state){
+    this.clickEvent.emit(state);
   }
 
 }
